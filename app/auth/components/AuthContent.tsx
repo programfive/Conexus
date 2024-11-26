@@ -3,8 +3,6 @@ import { Icons } from "@/components/ui/icons";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "motion/react";
-
 interface WallpaperProps {
   image: string;
   children: React.ReactNode;
@@ -18,8 +16,7 @@ export function AuthContent({
   textLink,
 }: WallpaperProps) {
   return (
-    <motion.div
-      animate={{ x: 100 }}
+    <div
       className="grid min-h-screen grid-cols-1 lg:grid-cols-2"
     >
       <div className="relative hidden  bg-muted p-10 dark:border-r lg:flex">
@@ -75,6 +72,6 @@ export function AuthContent({
           <div className="w-full">{children}</div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
