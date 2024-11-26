@@ -1,9 +1,9 @@
-'use client'
 import { buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/components/ui/icons";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "motion/react";
 
 interface WallpaperProps {
   image: string;
@@ -11,9 +11,17 @@ interface WallpaperProps {
   link: string;
   textLink: string;
 }
-export function AuthContent({ image, children, link, textLink }: WallpaperProps) {
+export function AuthContent({
+  image,
+  children,
+  link,
+  textLink,
+}: WallpaperProps) {
   return (
-    <div className="grid min-h-screen grid-cols-1 lg:grid-cols-2">
+    <motion.div
+      animate={{ x: 100 }}
+      className="grid min-h-screen grid-cols-1 lg:grid-cols-2"
+    >
       <div className="relative hidden  bg-muted p-10 dark:border-r lg:flex">
         <div className="absolute inset-0 flex items-center justify-center">
           <Image
@@ -67,6 +75,6 @@ export function AuthContent({ image, children, link, textLink }: WallpaperProps)
           <div className="w-full">{children}</div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
