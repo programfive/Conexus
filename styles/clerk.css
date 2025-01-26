@@ -1,0 +1,148 @@
+/* card*/
+.cl-internal-1p733cp{
+    padding: 0;
+    border: none;
+    @apply  bg-card rounded-none px-6 pt-6 
+}
+.cl-internal-7hb1uf{
+    @apply overflow-auto rounded-lg border-border border  bg-card text-card-foreground shadow
+}
+.cl-internal-1dauvpw{
+    @apply hidden
+}
+/* card title */
+.cl-internal-1tpvhd8{
+    @apply font-semibold text-foreground tracking-tight text-2xl 
+}
+/* card description */
+.cl-internal-1vbkfwh{
+    @apply text-base text-muted-foreground  
+}
+/* card social button */
+.cl-internal-objb41{
+    @apply  grid grid-cols-3 gap-2
+}
+.cl-internal-1qyb9gr[data-variant="outline"]{
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:text-red-500
+     [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-[#f5f5f5] dark:hover:bg-[#262626] text-foreground  hover:text-accent-foreground h-9 px-4 py-2
+}
+.cl-internal-1qyb9gr[data-variant="outline"]:focus-within{
+    all: inherit;
+    @apply  flex  border-input border dark:bg-[#262626] rounded-md justify-center items-center bg-accent 
+}
+.cl-providerIcon__apple,.cl-providerIcon__google,.cl-providerIcon__facebook{
+    @apply  hidden
+}
+.cl-socialButtonsIconButton__apple::before {
+    content: "";
+    @apply w-5 h-5 inline-block;
+    background-color: currentColor;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282'/%3E%3C/svg%3E");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+.cl-socialButtonsIconButton__facebook::before {
+    content: "";
+    @apply w-5 h-5 inline-block;
+    background-color: currentColor;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951'/%3E%3C/svg%3E");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+.cl-socialButtonsIconButton__google::before {
+    content: "";
+    @apply w-5 h-5 inline-block;
+    background-color: currentColor;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z'/%3E%3C/svg%3E");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+/* card separator */
+.cl-internal-xexz24{
+    @apply  uppercase select-none  text-sm text-muted-foreground  
+}
+.cl-internal-xexz24::after{
+    content: "Continue with";
+    @apply pointer-events-none pl-1
+
+}
+.cl-internal-1ftpdtb{
+    @apply  bg-border h-[0.8px]
+}
+/* card form */
+.cl-internal-11m7oop{
+    @apply gap-2
+}
+.cl-internal-w8uam1{
+    @apply  gap-4
+}
+.cl-internal-tgducu{
+    @apply  gap-4
+}
+/* card form label */
+.cl-internal-1c7fjmu{
+    @apply  text-foreground  text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70
+}
+/* card form input text */
+.cl-internal-1gblaxi[data-variant="default"]{
+    @apply   text-start flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-transparent text-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm
+    
+}
+/* card form input password */
+.cl-internal-1o17xpc[data-variant="default"]{
+    @apply   text-start flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-transparent text-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm
+}
+.cl-internal-1hmtz31[data-variant="default"][data-feedback="error"]{
+    @apply text-start flex h-9 w-full rounded-md border border-red-500 bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-transparent text-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm
+}
+.cl-internal-rk8nkz{
+    @apply  text-sm text-red-500
+}
+.cl-internal-hg925y{
+    @apply  text-sm text-muted-foreground
+}
+.cl-internal-1o17xpc{
+    @apply  bg-transparent border border-input
+}
+.cl-internal-1r7rnyr,.cl-internal-1sany6l{
+    @apply hidden 
+}
+/* card footer */
+.cl-internal-4x6jej{
+    @apply bg-card 
+}
+.cl-internal-1rpdi70{
+    @apply  p-0 bg-card w-full px-6 justify-center pb-4
+}
+/* card footer text */
+.cl-internal-kyvqj0{
+    @apply text-sm text-muted-foreground
+}
+.cl-internal-1v2koqu{
+    @apply  text-sm text-muted-foreground hover:text-accent-foreground
+}
+/* card footer button */
+.cl-internal-ttumny[data-variant="solid"]{
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 w-full
+}
+.cl-internal-ttumny{
+    isolation: unset;
+}
+.cl-internal-1c4ikgf{ 
+    @apply  hidden
+}
