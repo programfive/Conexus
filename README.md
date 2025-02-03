@@ -68,4 +68,4 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
 
 # Licencia MIT
 
-Copyright (c) [2004] [Conexus]
+Copyright (c) 2004 Conexus
