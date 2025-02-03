@@ -65,3 +65,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
 7. Accede a la aplicación:
    ```bash
    http://localhost:3000
+
+# Licencia MIT
+
+Copyright (c) [2004] [Conexus]
