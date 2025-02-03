@@ -2,7 +2,7 @@
 .cl-internal-1p733cp{
     padding: 0;
     border: none;
-    @apply  bg-card rounded-none px-6 pt-6 
+    @apply  bg-card rounded-none px-6 py-6 
 }
 .cl-internal-7hb1uf{
     @apply overflow-auto rounded-lg border-border border  bg-card text-card-foreground shadow
@@ -113,13 +113,14 @@
 .cl-internal-rk8nkz{
     @apply  text-sm text-red-500
 }
-.cl-internal-hg925y{
+.cl-internal-hg925y,.cl-internal-180tet8{
     @apply  text-sm text-muted-foreground
 }
+
 .cl-internal-1o17xpc{
     @apply  bg-transparent border border-input
 }
-.cl-internal-1r7rnyr,.cl-internal-1sany6l{
+.cl-internal-1r7rnyr,.cl-internal-1sany6l,.cl-internal-7dys0s{
     @apply hidden 
 }
 /* card footer */
@@ -145,4 +146,14 @@
 }
 .cl-internal-1c4ikgf{ 
     @apply  hidden
+}
+/* verify email */
+.cl-internal-j8ff2h{
+    @apply text-sm text-muted-foreground
+}
+.cl-internal-q2718p{
+    @apply  text-sm text-foreground
+}
+.cl-internal-pkocsj{
+    @apply  text-sm text-foreground
 }
