@@ -32,63 +32,39 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/programfive/conexus.git
-
-    Navigate to the project directory:
-
-cd conexus
-
-Install the dependencies:
-
-npm install
-# or if you prefer using Yarn:
-yarn install
-
-Configure the environment variables:
-
-Create a .env.local file in the root of the project and add the following environment variables. Make sure to replace the key values with your actual configuration data:
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
-CLERK_SECRET_KEY=<your-clerk-secret-key>
-NEXT_PUBLIC_CLERK_SIGN_IN_URL="/sign-in"
-NEXT_PUBLIC_CLERK_SIGN_UP_URL="/sign-up"
-NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL="/users"
-NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL="/users"
-DATABASE_URL="mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database-name>?retryWrites=true&w=majority"
-NEXT_PUBLIC_PUSHER_APP_KEY=<your-pusher-app-key>
-PUSHER_APP_ID=<your-pusher-app-id>
-PUSHER_SECRET=<your-pusher-secret>
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
-NEXT_PUBLIC_CLOUDINARY_API_KEY=<your-cloudinary-api-key>
-CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
-MUX_TOKEN_ID=<your-mux-token-id>
-MUX_TOKEN_SECRET=<your-mux-token-secret>
-
-    Clerk: You will need your Clerk keys for authentication.
-    MongoDB: Make sure you have your MongoDB connection URL (this can be from MongoDB Atlas).
-    Pusher: Set up Pusher keys to enable WebSocket functionality.
-    Cloudinary: Used for file uploads (images and other file types).
-    Mux: Used for video upload and processing.
-
-Set up the database with Prisma:
-
-Generate and push the Prisma schema to your MongoDB database:
-
-npx prisma generate
-npx prisma db push
-
-Start the development server:
-
-To run the application locally, use the following command:
-
-npm run dev
-# or with Yarn:
-yarn dev
-
-Access the application:
-
-Open your browser and go to the following URL to see the application in action:
-
-http://localhost:3000
+2. Navega al directorio del proyecto:
+   ```bash
+   cd conexus
+3. Instala las dependencias:
+   ```bash
+   npm install
+4. Configura las variables de entorno:
+   ```bash
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   CLERK_SECRET_KEY=
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL="/sign-in"
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL="/sign-up"
+    NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL="/users"
+    NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL="/users"
+    DATABASE_URL=
+    NEXT_PUBLIC_PUSHER_APP_KEY=
+    PUSHER_APP_ID=
+    PUSHER_SECRET=
+    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+    NEXT_PUBLIC_CLOUDINARY_API_KEY=
+    CLOUDINARY_API_SECRET=
+    MUX_TOKEN_ID=
+    MUX_TOKEN_SECRET=
+5. Configura la base de datos con Prisma:
+    ```bash
+    npx prisma generate 
+    npx prisma db push
+6. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+7. Accede a la aplicación:
+   ```bash
+   http://localhost:3000
 
 # Licencia MIT
 
