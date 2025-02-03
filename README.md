@@ -39,7 +39,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
    ```bash
    npm install
 4. Configura las variables de entorno:
-
+   ```bash
    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
    CLERK_SECRET_KEY=
     NEXT_PUBLIC_CLERK_SIGN_IN_URL="/sign-in"
@@ -63,5 +63,5 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
    ```bash
    npm run dev
 7. Accede a la aplicación:
-
+   ```bash
    http://localhost:3000
